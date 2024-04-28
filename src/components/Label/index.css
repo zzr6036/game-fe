@@ -1,0 +1,21 @@
+.item {
+  display: grid;
+  column-gap: 5px;
+  grid-template-columns: 10px max-content;
+  margin: 20px 0;
+  align-items: center;
+}
+
+.bullet {
+  width: 4px;
+  height: 16px;
+  border-radius: 1px;
+  background: #0a6efa;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #fff;
+}

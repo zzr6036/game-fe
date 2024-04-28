@@ -1,0 +1,95 @@
+.message-input {
+  width: 500px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.online-indicator {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 50%;
+
+  position: relative;
+}
+span.blink {
+  display: block;
+  width: 15px;
+  height: 15px;
+  opacity: 0.7;
+  border-radius: 50%;
+
+  animation: blink 1s linear infinite;
+}
+
+.online-color {
+  background-color: #0fcc45;
+}
+
+.offline-color {
+  background-color: #cc0f45;
+}
+
+@keyframes blink {
+  100% {
+    transform: scale(2, 2);
+    opacity: 0;
+  }
+}
+
+.subBtn {
+  margin-top: 10px;
+}
+
+.real-time-body {
+  height: 100%;
+  background-color: black;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.ant-btn-default:disabled {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: white;
+}
+
+.real-time-row {
+  min-height: 630px;
+}
+
+.ask-data-price {
+  color: rgb(238, 103, 88);
+  text-align: left;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+.ask-data-size {
+  color: rgb(255, 255, 255);
+  text-align: right;
+}
+
+.bid-data-price {
+  color: rgb(77, 255, 157);
+  text-align: right;
+  padding-right: 10px;
+  font-weight: bold;
+}
+
+.bid-data-size {
+  color: rgb(255, 255, 255);
+  text-align: left;
+}
+
+.legend-row {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: bold;
+  padding-top: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+  padding-bottom: 3px;
+  margin-bottom: 5px;
+}

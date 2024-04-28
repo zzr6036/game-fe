@@ -1,0 +1,27 @@
+.color-bar {
+  display: flex;
+  align-items: center;
+}
+
+.red-bar,
+.green-bar {
+  height: 30px;
+  line-height: 20px;
+  margin-right: 1px;
+  padding: 0 10px;
+  color: white;
+  /* width: 200px; */
+  font-size: 16px;
+  font-weight: 500;
+  align-content: center;
+}
+
+.red-bar {
+  background-color: rgba(255, 0, 0, 0.7);
+  text-align: right;
+}
+
+.green-bar {
+  background-color: rgb(1, 129, 1, 0.7);
+  text-align: left;
+}

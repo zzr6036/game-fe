@@ -1,0 +1,39 @@
+.layout {
+  min-height: 100vh;
+}
+
+.header {
+  padding: 0 30px;
+  background: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+}
+.collapse-button {
+  font-size: 16px;
+  width: 64;
+  height: 64;
+  margin-left: 20px;
+}
+.content {
+  margin: 24px 16px 20px;
+}
+.content-container {
+  padding: 24px;
+  height: 100%;
+  background: rgb(255, 255, 255);
+  border-radius: 8px;
+}
+.footer {
+  text-align: center;
+  position: sticky;
+}
+
+.logout-icon {
+  color: #1c1b1b;
+  font-size: 20px;
+  padding-right: 8px;
+  cursor: pointer;
+}
+.logout-icon:hover {
+  color: #0a6efa;
+}

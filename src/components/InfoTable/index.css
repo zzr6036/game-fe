@@ -1,0 +1,11 @@
+table {
+  background-color: black;
+  color: #f5f5f5;
+}
+tr:nth-child(even) {
+  background-color: black;
+}
+tr:hover {
+  background-color: #383737;
+  color: black;
+}
